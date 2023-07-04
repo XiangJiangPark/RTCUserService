@@ -1,3 +1,5 @@
+这只是一个非常简单的Restful项目，用于生成用于通讯的Token。具体应该如何架构，可以参考声网的Doc: https://docs.agora.io/en/voice-calling/get-started/authentication-workflow?platform=ios
+
 # RTCUserService
 
 User Service of RTC based on LiveKit
