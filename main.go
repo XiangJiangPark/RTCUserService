@@ -12,7 +12,7 @@ import (
 
 func main() {
 	http.HandleFunc("/getJoinToken", getJoinTokenHandler)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":9090", nil))
 }
 
 func getJoinTokenHandler(w http.ResponseWriter, r *http.Request) {

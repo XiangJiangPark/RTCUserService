@@ -18,11 +18,11 @@ You can test by curl command.
 
 ```shell
 curl -X POST -H "Content-Type: application/json" -d '{
-  "apiKey": "your-api-key",
-  "apiSecret": "your-api-secret",
-  "room": "your-room",
-  "identity": "your-identity"
-}' http://localhost:8080/getJoinToken
+  "apiKey": "devkey",
+  "apiSecret": "secret",
+  "room": "room1",
+  "identity": "user1"
+}' http://localhost:9090/getJoinToken
 ```
 
 it will output:
